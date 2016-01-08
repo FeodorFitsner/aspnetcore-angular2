@@ -279,3 +279,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+node_modules
+bower_components
+**/wwwroot/js
+**/wwwroot/app/**/*.js
+**/wwwroot/app/**/*.js.map
