@@ -1,0 +1,27 @@
+﻿@{
+	Layout = "_BaseLayout";
+}
+
+@section head {
+	<base href="/" />
+}
+
+@section styles {
+	@RenderSection("styles", false)
+}
+
+@RenderBody()
+
+@section scripts {
+	<script src="~/js/lib/angular2/bundles/angular2-polyfills.js"></script>
+	<script src="~/js/lib/systemjs/dist/system.src.js"></script>
+	<script src="~/js/lib/rxjs/bundles/Rx.js"></script>
+	<script src="~/js/lib/angular2/bundles/angular2.dev.js"></script>
+	<script src="~/js/lib/angular2/bundles/http.dev.js"></script>
+	<script src="~/js/lib/angular2/bundles/router.dev.js"></script>
+
+	<script src="~/system.config.js"></script>
+	<script>System.import('./app/boot').then(null, console.error.bind(console));</script>
+
+	@RenderSection("scripts", false)
+}
