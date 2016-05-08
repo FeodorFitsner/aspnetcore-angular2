@@ -1,5 +1,5 @@
 version: 1.0.{build}
-os: test-vs2015-hyperv
+#os: test-vs2015-hyperv
 configuration: Release
 shallow_clone: true
 install:
