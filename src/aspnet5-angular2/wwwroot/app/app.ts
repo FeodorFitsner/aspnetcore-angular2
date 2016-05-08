@@ -8,7 +8,7 @@ import * as router from 'angular2/router';
 	selector: 'app'
 })
 
-@View({
+@Component({
 	templateUrl: './app/app.html',
 	directives: [router.ROUTER_DIRECTIVES, NgFor]
 })
