@@ -1,6 +1,6 @@
 ﻿"use strict";
 
-import { Component, View, ElementRef, Renderer } from 'angular2/core';
+import { Component, ElementRef, Renderer } from 'angular2/core';
 import { NgFor } from 'angular2/common';
 import * as router from 'angular2/router';
 
